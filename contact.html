@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./src/contact.css">
+</head>
+<body class="h-screen">
+    <!-- navbar goes here -->
+    <nav class="flex h-14 bg-yellow-50 items-center justify-between w-full fixed">
+        <a href="#hero">
+        <img src="./img/deb.svg" alt="" class="rounded-full h-10 w-10 ml-5" >
+        </a>
+        <!-- big screen nav -->
+        <ul class="list-none hidden md:flex mr-5 justify-between md:w-4/6 lg:w-3/6 h-full items-center p-1 ">
+            <li><a href="./index.html#hero#hero" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">Home</a></li>
+            <li><a href="./about.html" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">About</a></li>
+            <li><a href="./index.html#education" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">Education</a></li>
+            <li><a href="./index.html#skills" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">skills</a></li>
+            <li><a href="./index.html#projects" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">Projects</a></li>
+            <li><a href="./contact.html" class="bg-amber-100 cursor-pointer p-4 rounded-xl">Contact</a></li>
+        </ul>
+        <!-- hamburger icon -->
+        <div class="md:hidden mr-5 ">
+            <button class="text-4xl p-1 px-3 m-2 rounded-full" id="hamburger-button">&#8801</button>
+        </div>
+        
+    </nav>
+    <div class="w-full h-14"></div>
+    <div id="sm-nav" class="w-full h-0 overflow-hidden md:hidden md:h-0  transition-all duration-500 ease-in-out bg-amber-50 fixed top-14">
+            <ul class="list-none  overflow-hidden">
+                <li class="text-center"><a href="./index.html#hero" class="active:bg-amber-100 py-3   block">Home</a></li>
+                <li class="text-center"><a href="./about.html" class="active:bg-amber-100 py-3   block ">About</a></li>
+                <li class="text-center"><a href="./index.html#education" class="active:bg-amber-100 py-3   block ">Education</a></li>
+                <li class="text-center"><a href="./index.html#skills" class="active:bg-amber-100 py-3   block ">skills</a></li>
+                <li class="text-center"><a href="./index.html#project" class="active:bg-amber-100 py-3   block ">Projects</a></li>
+                <li class="text-center"><a href="./contact.html" class="bg-amber-100 py-3  block ">Contact</a></li>
+            </ul>
+    </div>
+    <!-- navbar end here -->
+
+    <!-- main -->
+     <main class="h-full  pt-10 px-5 bg-gray-200 flex justify-center items-center font-sans font-bold text-xl md:text-4xl">
+        <h1>The Page is under Coustruction </h1>
+     </main>
+     
+
+    <script src="./smMenu.js"></script>
+</body>
+</html>

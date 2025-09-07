@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Singh</title>
+    <link rel="stylesheet" href="./src/nunito.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/loader.css">
+</head>
+<body class="h-screen w-screen" id="body">
+
+    <!-- navbar goes here -->
+    <nav class="flex h-14 bg-yellow-50 items-center justify-between w-full fixed">
+        <a href="#hero">
+        <img src="https://avatars.githubusercontent.com/u/109325596?v=4" alt="" class="rounded-full h-10 w-10 ml-5" >
+        </a>
+        <!-- big screen nav -->
+        <ul class="list-none hidden md:flex mr-5 justify-between md:w-4/6 lg:w-3/6 h-full items-center p-1 ">
+            <li><a href="./index.html#hero#hero" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">Home</a></li>
+            <li><a href="./about.html" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">About</a></li>
+            <li><a href="./index.html#education" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">Education</a></li>
+            <li><a href="./index.html#skills" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">skills</a></li>
+            <li><a href="./index.html#projects" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">Projects</a></li>
+            <li><a href="./contact.html" class="hover:bg-amber-100 cursor-pointer p-4 rounded-xl">Contact</a></li>
+        </ul>
+        <!-- hamburger icon -->
+        <div class="md:hidden mr-5 ">
+            <button class="text-4xl p-1 px-3 m-2 rounded-full" id="hamburger-button">&#8801</button>
+        </div>
+        
+    </nav>
+    <div class="w-full h-14"></div>
+    <div id="sm-nav" class="w-full h-0 overflow-hidden md:hidden md:h-0  transition-all duration-500 ease-in-out bg-amber-50 fixed top-14">
+            <ul class="list-none  overflow-hidden">
+                <li class="text-center"><a href="./index.html#hero" class="active:bg-amber-100 py-3   block">Home</a></li>
+                <li class="text-center"><a href="./about.html" class="active:bg-amber-100 py-3   block ">About</a></li>
+                <li class="text-center"><a href="./index.html#education" class="active:bg-amber-100 py-3   block ">Education</a></li>
+                <li class="text-center"><a href="./index.html#skills" class="active:bg-amber-100 py-3   block ">skills</a></li>
+                <li class="text-center"><a href="./index.html#project" class="active:bg-amber-100 py-3   block ">Projects</a></li>
+                <li class="text-center"><a href="./contact.html" class="active:bg-amber-100 py-3  block ">Contact</a></li>
+            </ul>
+    </div>
+    <!-- navbar end here -->
+
+    <!-- hero section goes here -->
+    <header id="hero" class="h-auto w-full bg-gray-100 p-5 pt-5 md:px-17 md:pt-6 grid grid-cols-[1.5fr_1fr]">
+            <!-- discription div goes here -->
+            <div id="discription-section">
+                <div id="profession">
+                    <h4 class="font-sans font-bold md:text-xl">web developer</h4>
+                </div>
+
+                <div id="greeting" class="mt-5 md:mt-9">
+                    <h1 class="text-4xl flex flex-wrap md:text-6xl">Hey There,<br> I'm Raj 👋🏼</h1>
+                </div>
+                <p id="short-description" class="mt-2">
+                    From Commerce to code - I build dynamic, use-friendly ,and efficient web applications with a passin for clean desin and roubust functinality
+                </p>
+                <div id="hero-buttons" class="mt-6 flex">
+                    <button class="p-2 py-1 bg-stone-950 text-white rounded-lg text-center">Hire Me</button>
+                    <button class="p-2 py-1 bg-gray-300 rounded-lg text-center ml-2">Copy email</button>
+                </div>
+            </div>
+            <!-- discription div ends here -->
+            
+            <!-- hero image section and availability tag-->
+             <div class="flex flex-col items-center h-full gap-14 md:gap-12">
+                <div class="h=3 w-fit p-1 bg-green-100  rounded-2xl text-center text-green-600 font-sans font-medium">
+                    available for work
+                </div>
+                <img src="https://avatars.githubusercontent.com/u/109325596?v=4" alt="" class="h-32 w-30 md:h-40 md:w-40 rounded-full">
+
+            </div>
+
+            <!-- hero image section  and availibality tag ends here -->
+    </header>
+    <!-- hero section ends here -->
+
+    <!-- Education section starts here -->
+    <section id="education" class="h-fit text-center m-4">
+        <h2 class="font-sans font-bold text-xl">Education</h2>
+        <div class="border-b-amber-800 border-b-3 w-14 m-auto rounded-2xl "></div>
+        <div class="flex justify-center flex-wrap mt-5 md:gap-[190px] gap-[60px]">
+            <div>
+                <img src="./img/Army_Welfare_Education_Society_logo.png" alt="AWES" class="h-40 w-[164px] rounded-full bg-gradient-to-br from-yellow-100 to-pink-200">
+                <h4 class="font-sans font-bold text-lg text-center mt-3">Army Public School</h4>
+                <p class="text-center font-medium text-gray-900">I completed my schooling</p>
+            </div>
+            <div >
+                <img src="./img/DU.png" alt="Delhi Univerty" class="h-40 w-[164px] rounded-full">
+                <h4 class="font-sans font-bold text-lg text-center mt-3">Delhi Univerty</h4>
+                <p class="text-center font-medium text-gray-900">Bachlers of commerce</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- Education section ends here -->
+
+    <!-- skills section starts here -->
+     <section id="skills"  class="h-fit text-center m-4">
+        <h2 class="font-sans font-bold text-xl">Skills</h2>
+        <div class="border-b-amber-800 border-b-3 w-1 m-auto rounded-2xl "></div>
+        working
+        <!-- <div class="mt-5 flex justify-around items-center flex-wrap gap-5">
+            
+            <div class="grid grid-cols-[.5fr_2fr] w-52 h-fit p-4 bg-gray-200 rounded-md py-2">
+                <img src="./img/deb.svg" alt="" class="h-12 w-12 rounded-full m-auto">
+                <div class="text-center">
+                    <h4 class="text-xl font-bold">Lorem</h4>
+                    <p class="text-[15px]">Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-[.5fr_2fr] w-52 h-fit p-4 bg-gray-200 rounded-md py-2">
+                <img src="./img/deb.svg" alt="" class="h-12 w-12 rounded-full m-auto">
+                <div class="text-center">
+                    <h4 class="text-xl font-bold">Lorem</h4>
+                    <p class="text-[15px]">Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-[.5fr_2fr] w-52 h-fit p-4 bg-gray-200 rounded-md py-2">
+                <img src="./img/deb.svg" alt="" class="h-12 w-12 rounded-full m-auto">
+                <div class="text-center">
+                    <h4 class="text-xl font-bold">Lorem</h4>
+                    <p class="text-[15px]">Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-[.5fr_2fr] w-52 h-fit p-4 bg-gray-200 rounded-md py-2">
+                <img src="./img/deb.svg" alt="" class="h-12 w-12 rounded-full m-auto">
+                <div class="text-center">
+                    <h4 class="text-xl font-bold">Lorem</h4>
+                    <p class="text-[15px]">Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-[.5fr_2fr] w-52 h-fit p-4 bg-gray-200 rounded-md py-2">
+                <img src="./img/deb.svg" alt="" class="h-12 w-12 rounded-full m-auto">
+                <div class="text-center">
+                    <h4 class="text-xl font-bold">Lorem</h4>
+                    <p class="text-[15px]">Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-[.5fr_2fr] w-52 h-fit p-4 bg-gray-200 rounded-md py-2">
+                <img src="./img/deb.svg" alt="" class="h-12 w-12 rounded-full m-auto">
+                <div class="text-center">
+                    <h4 class="text-xl font-bold">Lorem</h4>
+                    <p class="text-[15px]">Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div> -->
+     </section>
+     <!-- skills section ends here -->
+
+     <!-- Projects section starts here -->
+     <section id="projects" class="h-fit text-center m-4 mt-8">
+        <h2 class="font-sans font-bold text-xl">Projects</h2>
+        <div class="border-b-amber-800 border-b-3 w-14 m-auto rounded-2xl pt-7"></div>
+        <div class="flex justify-center flex-wrap mt-5 md:gap-[120px] gap-[60px]">
+            <!-- <div>
+                <img src="./img/Army_Welfare_Education_Society_logo.png" alt="AWES" class="h-40 w-[164px] rounded-full bg-gradient-to-br from-yellow-100 to-pink-200">
+                <h4 class="font-sans font-bold text-lg text-center mt-3">Army Public School</h4>
+                <p class="text-center font-medium text-gray-900">I completed my schooling</p>
+            </div>
+            <div >
+                <img src="./img/DU.png" alt="Delhi Univerty" class="h-40 w-[164px] rounded-full">
+                <h4 class="font-sans font-bold text-lg text-center mt-3">Delhi Univerty</h4>
+                <p class="text-center font-medium text-gray-900">Bachlers of commerce</p>
+            </div> -->
+
+            <span class="loader"></span>
+            <span class="loader"></span>
+            <span class="loader"></span>
+            <span class="loader"></span>
+            <span class="loader"></span>
+            <span class="loader"></span>
+        </div>
+        
+
+    </section>
+
+    <footer class="w-full h-fit bg-gray-950 text-amber-50 p-5" >
+        &copy; 2025 Raj Singh all rights reserved
+    </footer>
+
+    <script src="./smMenu.js">
+    </script>
+
+</body>
+</html>
